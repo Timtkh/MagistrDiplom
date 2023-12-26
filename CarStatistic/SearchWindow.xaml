@@ -1,0 +1,52 @@
+﻿<Window x:Class="CarStatistic.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarStatistic"
+        mc:Ignorable="d"
+        Title="SearchWindow" Height="650" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,0,0,400">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Введите первое условие:</TextBlock>
+            <ComboBox x:Name="columnComboBox1" Width="100" Margin="10" />
+            <ComboBox x:Name="operationComboBox1" Width="50" Margin="10" />
+            <TextBox x:Name="textbox1" Width="100" Margin="10" FontSize="25" FontFamily="Times New Roman"></TextBox>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,0,0,200">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Введите второе условие:</TextBlock>
+            <ComboBox x:Name="columnComboBox2" Width="100" Margin="10" />
+            <ComboBox x:Name="operationComboBox2" Width="50" Margin="10" />
+            <TextBox x:Name="textbox2" Width="100" Margin="10" FontSize="25" FontFamily="Times New Roman"></TextBox>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,0,0,0">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Введите третье условие:</TextBlock>
+            <ComboBox x:Name="columnComboBox3" Width="100" Margin="10" />
+            <ComboBox x:Name="operationComboBox3" Width="50" Margin="10" />
+            <TextBox x:Name="textbox3" Width="100" Margin="10" FontSize="25" FontFamily="Times New Roman"></TextBox>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,200,0,0">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Введите четвертое условие:</TextBlock>
+            <ComboBox x:Name="columnComboBox4" Width="100" Margin="10" />
+            <ComboBox x:Name="operationComboBox4" Width="50" Margin="10" />
+            <TextBox x:Name="textbox4" Width="100" Margin="10" FontSize="25" FontFamily="Times New Roman"></TextBox>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,400,0,0">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Введите пятое условие:</TextBlock>
+            <ComboBox x:Name="columnComboBox5" Width="100" Margin="10" />
+            <ComboBox x:Name="operationComboBox5" Width="50" Margin="10" />
+            <TextBox x:Name="textbox5" Width="100" Margin="10" FontSize="25" FontFamily="Times New Roman"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2"  MaxWidth="200" VerticalAlignment="Center">
+            <Button x:Name="Search" Content="Поиск" MinHeight="60" FontSize="25" FontFamily="Times New Roman" Click="Search_Click" />
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStatistic", "CarStatistic\CarStatistic.csproj", "{C2F3BAB9-2BAD-4FA8-9B4D-60E81118DEF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WfDbApp", "WfDbApp\WfDbApp.csproj", "{E0B51C63-E40E-4F02-B8B5-C203FF6F241B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F3BAB9-2BAD-4FA8-9B4D-60E81118DEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F3BAB9-2BAD-4FA8-9B4D-60E81118DEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F3BAB9-2BAD-4FA8-9B4D-60E81118DEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F3BAB9-2BAD-4FA8-9B4D-60E81118DEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B51C63-E40E-4F02-B8B5-C203FF6F241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B51C63-E40E-4F02-B8B5-C203FF6F241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B51C63-E40E-4F02-B8B5-C203FF6F241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B51C63-E40E-4F02-B8B5-C203FF6F241B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58F0F937-2A1D-4449-8C9B-C39034FDB638}
+	EndGlobalSection
+EndGlobal

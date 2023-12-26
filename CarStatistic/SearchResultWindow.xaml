@@ -1,0 +1,24 @@
+﻿<Window x:Class="CarStatistic.SearchResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarStatistic"
+        mc:Ignorable="d"
+        Title="SearchResultWindow" Height="355" Width="660">
+    <Grid>
+        <DataGrid x:Name="carsGrid" CanUserResizeColumns="False" IsReadOnly="True" AutoGenerateColumns="False" HorizontalGridLinesBrush="DarkGray" RowBackground="LightGray" AlternatingRowBackground="White" Width="660" Height="340">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Path=Id}" Width="40" />
+                <DataGridTextColumn Header="Марка" Binding="{Binding Path=Company}" Width="80" />
+                <DataGridTextColumn Header="Модель" Binding="{Binding Path=Model}" Width="100" />
+                <DataGridTextColumn Header="Количество" Binding="{Binding Path=Count}" Width="100" />
+                <DataGridTextColumn Header="Страна" Binding="{Binding Path=Contry}" Width="100" />
+                <DataGridTextColumn Header="Год машины" Binding="{Binding Path=Year}" Width="80" />
+                <DataGridTextColumn Header="Цена" Binding="{Binding Path=Money}" Width="150" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>
